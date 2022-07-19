@@ -18,15 +18,6 @@ const optimization = () => {
     return config
     }
 
-// const devtoolIsDev =() => {
-//     const config1 = {};
-// if (isDev) {
-//     config1.map = 'inline-source-map';
-// }
-//     return config1
-// }
-
-
 module.exports = {
 
     entry: './src/index.js',
