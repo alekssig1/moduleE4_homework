@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+  
+    font-size: 16px;
+    font-weight: normal; 
+     font-family:'Roboto', sans-serif;
+  }
+ .container{
+    max-width: 800px;
+    margin: auto;
+ }
+
+ a {
+    color:#0b58f3
+ } 
+
+ a:hover {
+    text-decoration: underline red;
+ }
+
+ a:active {
+    color: red;
+  }
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+@media (max-width: 700px) {
+.info {
+    text-align: center;
+    display: block;
+}
+}
+  .info-text {
+    margin-left: 40px;
+  }
+
+  .avatar {
+    width: 200px;
+    border-radius: 25px;
+  }
+
+  .table {
+    width: 100%;
+  }
+
+  .table td {
+    padding-bottom: 10px;
+  }
+
+  .card {
+    
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    
+  }
+
+  .card-green{
+    background: #e5ffe7;
+  }
+
+  .contact{
+    
+    text-align: center
+  }
+
+
+
+
+  /* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
